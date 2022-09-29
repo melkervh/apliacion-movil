@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ES">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link type="image/png" rel="icon" href="../resources/img/logo.jpeg">
+    <link rel="stylesheet" href="../resources/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="../resources/css/styless_ifco.css" media="screen,projection"/>
+    <title>Primer Registro</title>
+</head>
+
+<body>
+    <!-- Nav de la página web -->
+    <header>
+    </header>
+    <main>
+        <div>
+            <div class="Primar">
+                <div class="signupFrm">
+                    <div class="wrapper">
+                        <form autocomplete="off" method="post" id="save-form">
+                            <h1 class="title">Cambio de contraseña</h1>
+                            <label for="clave_actual" class="form-label">Contraseña actual</label>
+                            <div class="inputContainer">
+                                <input id="clave_actual" type="password" placeholder="Clave" aria-label="Last name"
+                                    name="clave_actual" class="input" required>
+                            </div>
+                            <label for="clave_usuario" class="form-label">Clave</label>
+                            <div class="inputContainer">
+                                <input id="clave_usuario" type="password" placeholder="Clave" aria-label="Last name"
+                                    name="clave_usuario" class="input" required>
+                            </div>
+                            <label for="mision" class="form-label">Confirmar clave</label>
+                            <div class="inputContainer">
+
+                                <input id="confirmar" type="password" placeholder="confirmar Clave" name="confirmar"
+                                    class="input" required>
+                            </div>
+                            <button type="submit" class="submitBtn" value="Registrar">Cambiar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+    </footer>
+    <script src="../resources/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="../controllers/components.js"></script>
+    <script src="../controllers/cambiodeclave.js"></script>
+</body>
+</html>

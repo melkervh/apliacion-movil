@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ingresar_usuario</title>
+    <!--CSS bootstrap-->}
+    <link type="image/png" rel="icon" href="../resources/img/logo.jpeg">
+    <link rel="stylesheet" href="../resources/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="../resources/css/styless_ifco.css" media="screen,projection" />
+</head>
+
+<body>
+    <header>
+    </header>
+    <br>
+    <sections>
+        <div class="tituu">
+            <H1 class="textm">Agregar Usuario</H1>
+        </div>
+        <br>
+        <main class="container factura2">
+            <div class="row">
+                <div class="col-lg-4">
+                    <label for="formGroupExampleInput" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" placeholder="" aria-label="First name">
+                </div>
+                <div class="col-lg-4">
+                    <label for="formGroupExampleInput" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" placeholder="" aria-label="Last name">
+                </div>
+                <div class="col-lg-4">
+                    <label for="formGroupExampleInput" class="form-label">Correo</label>
+                    <input type="text" class="form-control" placeholder="" aria-label="Last name">
+                </div>
+            </div>
+            <div class="clave">
+                <div class="row ">
+                    <div class="col-lg-4">
+                        <label for="formGroupExampleInput" class="form-label">Clave </label>
+                        <input type="password" class="form-control" placeholder="" aria-label="First name">
+                    </div>
+                    <div class="col-lg-4">
+                        <label for="formGroupExampleInput" class="form-label">Cargo</label>
+                        <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                            <option selected>Seleccione una opcion</option>
+                            <option value="1">Administrador</option>
+                            <option value="2">Empleado</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="medio">
+                <div class="col-md-12">
+                    <button id='delete_row' class="pull-right btn btn-default btngt"><a href=""
+                            class="colorfact">Agregar</a></button>
+                </div>
+            </div>
+        </main>
+        <br>
+        <div class="container">
+            <button id='delete_row' class="pull-right btn btn-default btngt"><a href="index.html"
+                    class="colorfact">Regresar</a></button>
+        </div>
+        </section>
+        <footer></footer>
+        <!--JS bootstrap-->
+        <script src="../resources/js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script src="../controllers/components.js"></script>
+        <script src="../controllers/acounst.js"></script>
+</body>
+
+</html>
